@@ -1,0 +1,163 @@
+* {
+    font-family: 'Karla', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.link-header {
+    position: relative;
+    color: #000;
+    font-size: 34px;
+    font-weight: 700;
+    cursor: pointer;
+    top: 10%;
+    left: 30%;
+    margin: 52px 60px 0 0;
+    display: inline-block;
+}
+
+h1 {
+    color: #000;
+    font-family: Karla;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    margin: 397px 0 29px 89px;
+}
+
+p {
+    color: #000;
+    font-size: 32px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 29px 491px 60px 100px;
+    height: 111px;
+    width: 807px;
+}
+
+button {
+    width: 270px;
+    height: 80px;
+    background: #171717;
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 20px;
+    box-shadow: 5px 5px 50px 10px rgba(0, 0, 0, 0.25);
+    margin: 53px 1362px 335px 288px;
+    cursor: pointer;
+}
+
+.carrinho-compras {
+    position: absolute;
+    width: 150px;
+    height: 99px;
+    margin: -1210px 0 0 1350px;
+    cursor: pointer;
+}
+
+.logo-nike {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    box-sizing: border-box;
+    padding: 0;
+    border: none;
+    margin: 20px 0 0 116px;
+    display: block;
+    width: 0;
+    height: 0;
+    min-width: 10%;
+    max-width: 100%;
+    min-height: 10%;
+    max-height: 100%;
+    cursor: pointer;
+}
+
+.tenis-nike {
+    position: absolute;
+    width: 850px;
+    height: 900px;
+    margin: -1060px 61px -36px 819px;
+}
+
+@media screen and (max-width: 900px) {
+    .container-left {
+        width: 100%;
+        height: 50%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .container-right {
+        display: block;
+        height: auto;
+        width: 100%;
+        position: static;
+        padding: 40px;
+    }
+
+    .link-header {
+        font-size: 34px;
+        font-weight: 700;
+        cursor: pointer;
+        top: 10%;
+        left: 50%;
+        margin: 55px 0px 58px 21px;
+        display: inline-block;
+    }
+
+    h1 {
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        text-transform: lowercase;
+        margin: 397px 0 29px 89px;
+    }
+
+    p {
+        font-size: 32px;
+        font-weight: 300;
+        text-transform: uppercase;
+        margin: 29px 491px 60px 100px;
+        height: 111px;
+        width: 807px;
+    }
+
+    .button-shop {
+        font-size: 40px;
+        font-weight: 700;
+        text-transform: uppercase;
+        border-radius: 20px;
+        box-shadow: 5px 5px 50px 10px rgba(0, 0, 0, 0.25);
+        margin: 730px 1362px 335px 288px;
+        cursor: pointer;
+    }
+
+    .logo-nike {
+        position: absolute;
+        margin: 30px 0 0 75px;
+    }
+
+    .carrinho-compras {
+        position: absolute;
+        width: 150px;
+        height: 99px;
+        margin: -2060px 0 0 690px;
+        cursor: pointer;
+    }
+
+    .tenis-nike {
+        position: absolute;
+        width: 850px;
+        height: 900px;
+        margin: -1270px 61px -36px -100px;
+    }
+}
